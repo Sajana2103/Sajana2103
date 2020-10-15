@@ -1,0 +1,90 @@
+body{
+    background-color: white;
+    font-family: GeosansLight;
+}
+
+.display-4{
+    font-size: 5em;
+}
+.jumb-container-ds{
+    width: 100%;
+    height: 404px;
+    background-image: url("img/datascience.jpeg");
+
+
+}
+.jumb-container{
+    width: 100%;
+    height: 404px;
+    background-image: url("img/Coding.jpg");
+
+
+}
+.headertext{
+    padding-top: 202px;
+    padding-left: 100px;
+    color: whitesmoke;
+
+}
+img {
+    width: 100%;
+}
+.gist{
+    padding :50px;
+
+}
+a{
+    text-decoration: none;
+}
+.container{
+    display: grid;
+    grid-gap: 5px;
+    padding-top: 50px;
+    grid-template-columns: repeat(auto-fit, 250px);
+    grid-template-rows: repeat(2, 250px);
+    justify-content: center;
+
+}
+.introtext{
+
+    background-color: royalblue;
+
+    height: 250px;
+
+    transition: 1s;
+
+}
+.introtext:hover{
+    background-color: mediumblue;
+    cursor: pointer;
+     text-decoration: none;
+    text-underline: none;
+
+
+}
+.generictext{
+    width: 75%;
+    padding-left: 100px;
+    font-size: 14pt;
+    color: darkblue;
+    justify-content: center;
+}
+.subtext{
+    text-decoration: none;
+    text-underline: none;
+    margin : 20px 20px 20px 0px;
+    color: #E3F8ED;
+    text-align: left;
+    font-weight: bolder;
+    font-size: 2em;
+    justify-content: center;
+
+
+}
+p{
+    color: #E3F8ED;
+    flex-wrap: wrap;
+    justify-content: left;
+    width: 80%;
+
+}
